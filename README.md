@@ -30,6 +30,7 @@ Se implementó un pipeline básico de CI que se ejecuta automáticamente al hace
 
 ## 📁 Autor
 
-- Nombre: Tu nombre
-- Clase: Nombre de la asignatura
+- Nombre: Jordi Jose Mena Rosario
+- Matricula: 2023-1186
+- Clase: Electiva 1
 - Instituto: ITLA
