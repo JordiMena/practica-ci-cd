@@ -1,36 +1,51 @@
-# Práctica de CI/CD con GitHub Actions
+# 🚀 Práctica de CI/CD con GitHub Actions
 
-Este proyecto es una práctica para implementar integración continua (CI) y despliegue continuo (CD) utilizando **GitHub Actions**.
+Este proyecto es una práctica para implementar **Integración Continua (CI)** y **Despliegue Continuo (CD)** utilizando **GitHub Actions**.
 
-## 🛠 Estructura del Repositorio
+---
 
+## 🛠️ Estructura del Repositorio
+
+Este repositorio contiene un flujo de trabajo automatizado definido en el archivo `.github/workflows/ci.yml`.
+
+---
 
 ## ⚙️ CI/CD con GitHub Actions
 
-Se implementó un pipeline básico de CI que se ejecuta automáticamente al hacer `push` o `pull request` al repositorio.
+Se ha implementado un pipeline básico de CI/CD que se ejecuta automáticamente al hacer `push` o `pull request` a la rama `main`.
 
-### 🚀 Funcionalidad del workflow (`ci.yml`)
+### 🔄 Funcionalidad del flujo de trabajo (`ci.yml`)
 
-- Ejecuta acciones en cada push/pull request a la rama `main`.
-- Instala dependencias.
-- Corre pruebas (si están configuradas).
-- Verifica el estado del código.
+- ✅ Ejecuta acciones en cada `push` o `pull request` a `main`.
+- 📦 Instala dependencias automáticamente.
+- 🧪 Ejecuta pruebas (si están configuradas).
+- 🛡️ Verifica el estado del código.
+- 🌐 Despliega automáticamente a GitHub Pages (si aplica).
 
-### 📦 Tecnologías usadas
+---
 
-- GitHub Actions
+## 📦 Tecnologías utilizadas
+
+- [GitHub Actions](https://docs.github.com/en/actions)
 - YAML
-- (Lenguaje/Framework del proyecto, por ejemplo: Node.js, Python, .NET, etc.)
+- Node.js *(o la tecnología que estés utilizando)*
 
-## ✅ ¿Cómo ver la ejecución del pipeline?
+---
+
+## 👀 ¿Cómo ver la ejecución del pipeline?
 
 1. Ve a la pestaña **Actions** en este repositorio.
-2. Selecciona el workflow llamado `CI` (o el nombre que le pusiste).
-3. Ahí puedes ver todos los pasos y si se ejecutaron correctamente.
+2. Selecciona el flujo de trabajo llamado **CI/CD**.
+3. Haz clic en cualquier ejecución para ver los detalles paso a paso.
 
-## 📁 Autor
+---
 
-- Nombre: Jordi Jose Mena Rosario
-- Matricula: 2023-1186
-- Clase: Electiva 1
-- Instituto: ITLA
+## 👤 Autor
+
+- **Nombre:** Jordi José Mena Rosario  
+- **Matrícula:** 2023-1186  
+- **Clase:** Electiva 1  
+- **Instituto:** ITLA  
+
+---
+
